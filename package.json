@@ -1,0 +1,52 @@
+{
+  "name": "kedit",
+  "version": "1.0.0",
+  "description": "Uses one or more keys to locate and edit a value in a Map, Object, or other keyed collection. Supports nesting, loose key matching, and more.",
+  "keywords": [
+    "edit",
+    "set",
+    "nested",
+    "key",
+    "chain",
+    "value",
+    "collection",
+    "array",
+    "map",
+    "object",
+    "set",
+    "typed array",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/kedit",
+  "repository": "lamansky/kedit",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "construct-map": "^1.2.0",
+    "is-instance-of": "^1.0.1",
+    "is-object": "^1.0.1",
+    "kget": "^1.0.0",
+    "otherwise": "^1.0.0",
+    "pfn": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
