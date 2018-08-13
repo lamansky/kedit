@@ -47,7 +47,8 @@ module.exports = xfn({
         }
       } else {
         if (child === notFound || (!isObject(child) && overwriteAncestors)) {
-          set(c, key, child = construct(i), options, defaultSet)
+          child = construct(i)
+          set(c, key, child, options, () => defaultSet(c, key, child, options))
         }
         c = child
       }
