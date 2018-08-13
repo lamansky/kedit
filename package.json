@@ -1,6 +1,6 @@
 {
   "name": "kedit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uses one or more keys to locate and edit a value in a Map, Object, or other keyed collection. Supports nesting, loose key matching, and more.",
   "keywords": [
     "edit",
